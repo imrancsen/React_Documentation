@@ -1,8 +1,10 @@
 # React_Documentation
 ## 1.React Basics
+
 #### - What is React.js?
 React was originally created by Jordan Walke, a software engineer at Facebook in 2012 and later open-sourced in 2013. It is a Javascript Library for building user interfaces which uses componets (small pieces of codes) to make complex UI. 
 Developers when using React are able to create large web applications which use data needed to change over time, without refreshing the page resulting in faster and better web apps. The popular platforms using react are: Facebook, Dropbox, whatsapp, netflix etc.
+
 
 
 #### - How to set up required tools to develop web applications with React?
@@ -26,4 +28,9 @@ A few extensions for VS Code for the convenience and ease of use:
     c) Bracket Pair Colorizer   d) Auto Rename Tag
     
     d) Live server
+Now we are ready to write lines for our first react app.
 
+
+
+#### - What is React JSX??
+JSX stands for JavaScript XML which allows developer to write HTML in React.
