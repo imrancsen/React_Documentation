@@ -45,16 +45,26 @@ Compononents are building blocks of React. In simple words, any application deve
 ![courtesy:betterprogramming.pub](https://miro.medium.com/max/875/1*qpygBsXUnYiuFrZTcX65gA.png)
 
 There are mainly two types of React components:
-
-        a) Functional Components      b) Class Components
+        **a) Functional Components  b) Class Components**
         
-        a)  Functional Components:
-        These are javascript functions and can be created by writing a javascript function. For e.g.:
+        a)  Functional Components
+        These are javascript functions and can be created by writing a javascript function. For e.g.
 ```
-function Hello=()=>
+myfunction Hello=()=>
 {
     return <h1>Hello World!</h1>;
 }
 ```
     
+        
+        b)  Class Components
+        They class components, unlike function components, can work with each other. The date from one class component can be passed to other class components. It uses 'extends React.Component' when initiating class component. For e.g.
+```
+class myfunction extends React.Component 
+{
+    return <h1>Hello World!</h1>;
+}
+```
 
+
+- #### How to create a new react app?
