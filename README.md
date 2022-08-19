@@ -89,3 +89,34 @@ class myfunction extends React.Component
     
     
 ## 2.React State & Events 
+
+- #### What is React State?
+State is a javascript object used by React to store data/property of the component and may change overtime. It is a built-in object.
+- #### Demonstration of state in react app
+As we know that the state is a built-in React object and contains data or information about the component. The following example can explain how we can use these:
+```bash
+class Colour extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      Type: "Crayons",
+      colour: "blue",
+    };
+  }
+  render() {
+    return (
+      <div>
+        <h1>The type of color is {this.state.type}</h1>
+        <h2>The color is {this.state.colour}</h2>
+      </div>
+    );
+  }
+}
+```
+- #### What is an event?
+Event is an action that can be triggered by user or system. Events in react are same as in HTML. Some of the examples are:
+![reactevent](https://user-images.githubusercontent.com/97589134/185609113-f8ac8151-18d3-463b-a5a7-5b26c3a18eae.png)
+And there are many more.
+
+- #### How are events handled in react?
+- #### Demonstration of react event 
