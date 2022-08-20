@@ -119,4 +119,6 @@ Event is an action that can be triggered by user or system. Events in react are 
 And there are many more.
 
 - #### How are events handled in react?
+Event handling allows users to communicate with a webpage and perform the desired task when some speific event like a click or right click etc happens. Events are triggered when user do certain actions like pressing key, hovering mouse, clicking etc. So the web-page/application must be able to handle such actions i.e events and execute the code. Following code demonstrate how events are handled in react:
+
 - #### Demonstration of react event 
