@@ -124,6 +124,7 @@ Event handling allows users to communicate with a webpage and perform the desire
             i.camelCase Convention: Instead of using lowercase we use camelCase while giving names of the react events. That simply means we write ‘onClick’ instead of ‘onclick’.
             ii.Pass the event as a function: In React we pass a function enclosed by curly brackets as the event listener or event handler, unlike HTML where we pass the event handler or event listener as a string.
             iii.Prevent the default: Just returning false inside the JSX element does not prevent the default behavior in react. Instead, we have to call the ‘preventDefault’ method directly inside the event handler function.
+            (source for the rules: geeksforgeeks)
 
 
 - #### Demonstration of react event 
