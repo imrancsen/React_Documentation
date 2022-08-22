@@ -28,7 +28,7 @@ A few extensions for VS Code for the convenience and ease of use:
     c) Bracket Pair Colorizer   d) Auto Rename Tag
     
     d) Live server
-Now we are ready to write lines for our first react app.
+Now we are ready to write code for our first react app.
 
 
 
@@ -116,7 +116,7 @@ class Colour extends React.Component {
 - #### What is an event?
 Event is an action that can be triggered by user or system. Events in react are same as in HTML. Some of the examples are:
 ![reactevent](https://user-images.githubusercontent.com/97589134/185609113-f8ac8151-18d3-463b-a5a7-5b26c3a18eae.png)
-And there are many more.
+Beside this there are plent of more events in react which can be used as and when required.
 
 - #### How are events handled in react?
 Event handling allows users to communicate with a webpage and perform the desired task when some speific event like a click or right click etc happens. Events are triggered when user do certain actions like pressing key, hovering mouse, clicking etc. So the web-page/application must be able to handle such actions i.e events and execute the code. Whilre creating events, we also need to keep these rules in mind:
