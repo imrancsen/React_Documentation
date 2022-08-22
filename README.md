@@ -2,13 +2,13 @@
 ## 1.React Basics
 
 - #### What is React.js?
-React was originally created by Jordan Walke, a software engineer at Facebook in 2012 and later open-sourced in 2013. It is a Javascript Library for building user interfaces which uses componets (small pieces of codes) to make complex UI. 
+React was originally created by Jordan Walke, a software engineer at Facebook in 2012 and later open-sourced in 2013. It is a Javascript Library for building user interfaces and uses componets (small pieces of codes) to make complex UI. 
 Developers when using React are able to create large web applications which use data needed to change over time, without refreshing the page resulting in faster and better web apps. The popular platforms using react are: Facebook, Dropbox, whatsapp, netflix etc.
 
 
 
 - #### How to set up required tools to develop web applications with React?
-We need to install few softwares before creating web applications with React. These softwares/tools can easily be googled.
+To use react properly we need to install following softwares/apps before creating web applications with React. These softwares/tools can easily be googled:
 
 i.
 Install VS Code (a source code editor by Microsoft).
