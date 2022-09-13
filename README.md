@@ -121,10 +121,33 @@ Beside this there are plent of more events in react which can be used as and whe
 - #### How are events handled in react?
 Event handling allows users to communicate with a webpage and perform the desired task when some speific event like a click or right click etc happens. Events are triggered when user do certain actions like pressing key, hovering mouse, clicking etc. So the web-page/application must be able to handle such actions i.e events and execute the code. Whilre creating events, we also need to keep these rules in mind:
 
-            i.camelCase Convention: Instead of using lowercase we use camelCase while giving names of the react events. That simply means we write ‘onClick’ instead of ‘onclick’.
-            ii.Pass the event as a function: In React we pass a function enclosed by curly brackets as the event listener or event handler, unlike HTML where we pass the event handler or event listener as a string.
-            iii.Prevent the default: Just returning false inside the JSX element does not prevent the default behavior in react. Instead, we have to call the ‘preventDefault’ method directly inside the event handler function.
-            (source for the rules: geeksforgeeks)
+i.camelCase Convention: Instead of using lowercase we use camelCase while giving names of the react events. That simply means we write ‘onClick’ instead of ‘onclick’.
 
+ii.Pass the event as a function: In React we pass a function enclosed by curly brackets as the event listener or event handler, unlike HTML where we pass the event handler or event listener as a string.
+
+iii.Prevent the default: Just returning false inside the JSX element does not prevent the default behavior in react. Instead, we have to call the ‘preventDefault’ method directly inside the event handler function.(source for the rules: geeksforgeeks)
+
+for example button on click in react will be written as follows:
+```bash
+<button onClick={testMe}>
+ Test me
+</button>
+```
 
 - #### Demonstration of react event 
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function carStart() {
+  const start = () => {
+    alert("Engine Started!");
+  }
+
+  return (
+    <button onClick={start}>start engine!</button>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<carStart />);
