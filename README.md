@@ -135,7 +135,7 @@ for example button on click in react will be written as follows:
 ```
 
 - #### Demonstration of react event 
-
+```bash
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -151,3 +151,4 @@ function carStart() {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<carStart />);
+```
